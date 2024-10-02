@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
     ofstream outputFile;
-    outputFile.open("/Users/aidenramos/Desktop/Junior/Programming 2/Class Work/CW-09_12/CW-09_12/Demofile.txt");
+    outputFile.open("//path here");
     
     cout << "Writing to file.\n";
     
