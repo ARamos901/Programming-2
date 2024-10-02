@@ -16,7 +16,7 @@ int main() {
     ifstream inputFile;
     string name;
     
-    inputFile.open("/Users/aidenramos/Desktop/Junior/Programming 2/Class Work/CW-09_17/names.txt");
+    inputFile.open("//path here");
     
     inputFile >> name;
     cout<< name<< endl;
