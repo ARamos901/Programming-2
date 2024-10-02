@@ -34,7 +34,7 @@ int recur_call(int cur_num) {
     if (isPrime(cur_num)){
                                                     //The "ios::app" makes it so the nums
                                                     //list and do not overwite eachother
-        outputFile.open("/Users/aidenramos/Desktop/Junior/Programming 2/Assignemnts/HW6/Ramos_HW6/Ramos_HW6/RamosList.txt",ios::app);
+        outputFile.open("//path here",ios::app);
         outputFile<<cur_num<<endl;
         outputFile.close();
     }
